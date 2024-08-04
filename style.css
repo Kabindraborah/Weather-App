@@ -6,37 +6,37 @@
 }
 
 body {
-    overflow: hidden; /* Prevent scrolling */
+    overflow: hidden;
 }
 
 #background-video {
-    position: fixed; /* Position the video in the background */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
-    object-fit: cover; /* Cover the entire area */
-    z-index: -1; /* Send the video behind other content */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, rgba(0, 254, 186, 0.8), rgba(91, 84, 138, 0.8)); /* Add transparency to the gradient */
-    color: #fff; /* Text color */
-    margin: 25px auto; /* Center the card */
-    border-radius: 20px; /* Make border round */
+    background: linear-gradient(135deg, rgba(0, 254, 186, 0.8), rgba(91, 84, 138, 0.8));
+    color: #fff;
+    margin: 25px auto;
+    border-radius: 20px;
     padding: 40px 35px; 
     text-align: center;
-    position: relative; /* Ensure the card is positioned above the video */
-    z-index: 1; /* Bring the card above the video */
+    position: relative;
+    z-index: 1;
 }
 
 .search {
     width: 100%; 
-    display: flex; /* Displays an element as a block-level flex container */
+    display: flex;
     align-items: center;
-    justify-content: space-between; /* Distributes space between and around content items along the main-axis of a flex container */
+    justify-content: space-between;
 }
 
 .search input {
@@ -47,7 +47,7 @@ body {
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
-    flex: 1; /* Grow and take all available space within container */
+    flex: 1;
     margin-right: 16px;
     font-size: 18px;
 }
@@ -83,10 +83,10 @@ body {
 }
 
 .details {
-    display: flex; /* To create 2 columns */
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px; /* 20px for left and right */
+    padding: 0 20px;
     margin-top: 50px;
 }
 
@@ -121,3 +121,5 @@ body {
 .title {
     margin-bottom: 20px;
 }
+
+
